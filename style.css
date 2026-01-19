@@ -13,7 +13,6 @@ body{
 h1,h2{
     text-align: center;
 }
-
 nav ul{
     display: flex;
     justify-content: center;
@@ -27,14 +26,14 @@ nav ul li{
 
 .card{
     display: flex;
-    flex-flow: row wrap;
     background:#fff;
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     display: flex;
+    text-align: center;
 }
 
 form label{
@@ -48,7 +47,14 @@ form input{
     padding:8px;
     margin-bottom:20px;
     border:1px solid#ddd;
-    border-radius:4px
+    border-radius:4px;
+    text-align: center;
+
+}
+
+.submit-button{
+    width: 100%;
+    padding:8px;
 }
 
 footer{
