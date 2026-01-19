@@ -10,9 +10,10 @@ body{
     line-height: 1.6;
 }
 
-h1,h2{
+h1{
     text-align: center;
 }
+
 nav ul{
     display: flex;
     justify-content: center;
@@ -25,21 +26,31 @@ nav ul li{
 }
 
 .card{
-    display: flex;
     background:#fff;
     max-width: 500px;
     margin: 2rem auto;
     padding: 2rem;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+form{
     display: flex;
+    flex-direction: column;
+}
+
+form h2{
     text-align: center;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 form label{
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    text-align: center;
 }
 
 form input{
