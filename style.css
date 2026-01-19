@@ -1,38 +1,54 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+h1,h2{
     text-align: center;
 }
 
-h2{
-    text-align: center;
-}
-
-ul{
+nav ul{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     list-style:none;
-    padding-left: 0;
+    padding: 1rem;
+}
+
+nav ul li{
+    margin: 0 15px;
 }
 
 .card{
     display: flex;
     flex-flow: row wrap;
     background:#fff;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
     border-radius: 16px;
-    padding: 2rem;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    max-width: 500px;
-    margin: 2rem auto;
     display: flex;
 }
 
-.row{
-    display: flex;
-    flex-direction: column;
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input{
+    width: 100%;
+    padding:8px;
+    margin-bottom:20px;
+    border:1px solid#ddd;
+    border-radius:4px
 }
 
 footer{

@@ -23,29 +23,31 @@
     <main>
         <div class="card">
             <h2>Nouvelle séance</h2>
-            <div>
-                <label for="workout-name">Nom de l'exercice</label>
-                <input type="text" id="workout-name" name="workout-name" required>
-            </div>
-            <div class="row">
+            <form>
                 <div>
-                    <label for="weight">Poids</label>
-                    <input type="number" id="weight" name="weight" required>
+                    <label for="workout-name">Nom de l'exercice</label>
+                    <input type="text" id="workout-name" name="workout-name" required>
                 </div>
-                <div>
-                    <label for="series-count">Séries</label>
-                    <input type="number" id="series-count" name="series-count" required>
+                <div class="row">
+                    <div>
+                        <label for="weight">Poids</label>
+                        <input type="number" id="weight" name="weight" required min="0">
+                    </div>
+                    <div>
+                        <label for="series-count">Séries</label>
+                        <input type="number" id="series-count" name="series-count" required min="0">
+                    </div>
+                    <div>
+                        <label for="repetitions-count">Répétitions</label>
+                        <input type="number" id="repetitions-count" name="repetitions-count" required min="0">
+                    </div>
+                    <div>
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
                 </div>
-                <div>
-                    <label for="repetitions-count">Répétitions</label>
-                    <input type="number" id="repetitions-count" name="repetitions-count" required>
-                </div>
-                <div>
-                    <label for="date">Date</label>
-                    <input type="date" id="date" name="date" required>
-                </div>
-            </div>
-            <button>Enregistrer la séance</button>
+                <button>Enregistrer la séance</button>
+            </form>
         </div>
     </main>
 
