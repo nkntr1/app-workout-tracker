@@ -6,21 +6,21 @@ App web-mobile simple qui aide à créer des programmes, ainsi qu'aider à les s
 
 L'app a pour but d'aider l'utilisateur à :
 
--créer un programme sur une période donnée (d'une semaine à plusieurs mois)
--suivre les séances en direct
--suivre la progression au fil du temps (performances (poids,répétitions,séries))
+- créer un programme sur une période donnée (d'une semaine à plusieurs mois)
+- suivre les séances en direct
+- suivre la progression au fil du temps (performances (poids,répétitions,séries))
 
 # Technologies actuellement utilisées
 
 
--HTML
--CSS
+- HTML
+- CSS
 
 # Lancement du projet
 
 
--Cloner le repo
--Ouvrir le fichier 'index.html' dans un navigateur
+- Cloner le repo
+- Ouvrir le fichier 'index.html' dans un navigateur
 
 # Etat du projet
 
